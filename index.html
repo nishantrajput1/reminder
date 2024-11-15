@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reminder App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Task Reminder App</h1>
+
+    <div class="container">
+        <label for="task">Task:</label>
+        <input type="text" id="task" placeholder="Enter your task here">
+
+        <label for="time">Reminder Time:</label>
+        <input type="datetime-local" id="time">
+
+        <button onclick="setReminder()">Set Reminder</button>
+
+        <div id="reminderList"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
